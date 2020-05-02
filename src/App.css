@@ -1,38 +1,41 @@
 .App {
-  text-align: center;
+  font-family: Lato;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.marine {
+  background-color: #3DA4CE;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.black {
+  background-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.kab-icon {
+  width: 40%;
+  height: auto;
+}
+
+.logo-text {
   color: white;
+  margin: 0;
+  font-weight: 200;
+  font-size: 1.4rem;
+  padding-right: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-welcome {
+  color: black;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.showcase-img1 {
+  background-image: url("./images/photo-1527738697320-513f6648bc26.jpeg");
+}
+
+.showcase-img2 {
+  background-image: url("./images/photo-1563456019498-843e11bdaae0.jpeg");
+}
+
+.showcase-img3 {
+  background-image: url("./images/photo-1564062743661-02fd1d881da7.jpeg");
 }
